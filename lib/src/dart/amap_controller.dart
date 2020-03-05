@@ -2192,6 +2192,7 @@ class _IOSMapDelegate extends NSObject with MAMapViewDelegate {
         zoom: await mapView.get_zoomLevel(),
         tilt: await mapView.get_cameraDegree(),
         isAbroad: await mapView.get_isAbroad(),
+        wasUserActionIos: wasUserAction,
       ));
     }
   }
@@ -2209,6 +2210,7 @@ class _IOSMapDelegate extends NSObject with MAMapViewDelegate {
         zoom: await mapView.get_zoomLevel(),
         tilt: await mapView.get_cameraDegree(),
         isAbroad: await mapView.get_isAbroad(),
+        wasUserActionIos: wasUserAction,
       ));
     }
   }
@@ -2226,6 +2228,7 @@ class _IOSMapDelegate extends NSObject with MAMapViewDelegate {
         zoom: await mapView.get_zoomLevel(),
         tilt: await mapView.get_cameraDegree(),
         isAbroad: await mapView.get_isAbroad(),
+        wasUserActionIos: wasUserAction,
       ));
     }
   }
@@ -2243,6 +2246,7 @@ class _IOSMapDelegate extends NSObject with MAMapViewDelegate {
         zoom: await mapView.get_zoomLevel(),
         tilt: await mapView.get_cameraDegree(),
         isAbroad: await mapView.get_isAbroad(),
+        wasUserActionIos: wasUserAction,
       ));
     }
   }

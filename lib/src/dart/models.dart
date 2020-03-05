@@ -264,12 +264,13 @@ class MapMove {
   final double zoom;
   final double tilt;
   final bool isAbroad;
+  final bool wasUserActionIos;
 
-  MapMove({this.latLng, this.zoom, this.tilt, this.isAbroad});
+  MapMove({this.latLng, this.zoom, this.tilt, this.isAbroad, this.wasUserActionIos});
 
   @override
   String toString() {
-    return 'MapDrag{latLng: $latLng, zoom: $zoom, tilt: $tilt, isAbroad: $isAbroad}';
+    return 'MapDrag{latLng: $latLng, zoom: $zoom, tilt: $tilt, isAbroad: $isAbroad, wasUserActionIos: $wasUserActionIos}';
   }
 }
 
